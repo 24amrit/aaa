@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        Email: <a href="mailto:info@yourbusiness.com">info@yourbusiness.com</a> &nbsp;
+        Phone: 1234567890
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">AAA UPS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product List Section -->
+    <div class="product-list-section">
+        <h1>Our Products</h1>
+    
+        <!-- Centered Main Tabs -->
+        <ul class="nav nav-tabs justify-content-center border-0" id="productTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="apc-tab" data-bs-toggle="tab" data-bs-target="#apc" type="button"
+                    role="tab" aria-controls="apc" aria-selected="true">APC</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="amaze-tab" data-bs-toggle="tab" data-bs-target="#amaze" type="button"
+                    role="tab" aria-controls="amaze" aria-selected="false">Amaze</button>
+            </li>
+        </ul>
+    
+        <!-- Tabs Content -->
+        <div class="tab-content" id="productTabsContent">
+            <!-- APC Products -->
+            <div class="tab-pane fade show active" id="apc" role="tabpanel" aria-labelledby="apc-tab">
+                <div class="product-container">
+                    <!-- Column Sub-tabs for APC -->
+                    <div class="sub-tab-container">
+                        <ul class="nav nav-pills flex-column shadow-sm p-3 rounded" id="apcSubTabs" role="tablist">
+                            <li class="nav-item">
+                                <button class="nav-link active" id="apc-tab-1" data-bs-toggle="pill"
+                                    data-bs-target="#apc-products-1" type="button" role="tab">Category 1</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" id="apc-tab-2" data-bs-toggle="pill"
+                                    data-bs-target="#apc-products-2" type="button" role="tab">Category 2</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" id="apc-tab-3" data-bs-toggle="pill"
+                                    data-bs-target="#apc-products-3" type="button" role="tab">Category 3</button>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Products for Selected APC Category -->
+                    <div class="tab-content w-100">
+                        <!-- APC Category 1 -->
+                        <div class="tab-pane fade show active" id="apc-products-1" role="tabpanel">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="APC Product 1">
+                                </div>
+                                <h5 class="product-name">APC Product 1</h5>
+                                <p class="product-description">Short description of APC Product 1.</p>
+                                <p class="product-price">$99.99</p>
+                            </div>
+                        </div>
+                        <!-- APC Category 2 -->
+                        <div class="tab-pane fade" id="apc-products-2" role="tabpanel">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="APC Product 2">
+                                </div>
+                                <h5 class="product-name">APC Product 2</h5>
+                                <p class="product-description">Short description of APC Product 2.</p>
+                                <p class="product-price">$129.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Amaze Products -->
+            <div class="tab-pane fade" id="amaze" role="tabpanel" aria-labelledby="amaze-tab">
+                <div class="product-container">
+                    <!-- Column Sub-tabs for Amaze -->
+                    <div class="sub-tab-container">
+                        <ul class="nav nav-pills flex-column shadow-sm p-3 rounded" id="amazeSubTabs" role="tablist">
+                            <li class="nav-item">
+                                <button class="nav-link active" id="amaze-tab-1" data-bs-toggle="pill"
+                                    data-bs-target="#amaze-products-1" type="button" role="tab">Category 1</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" id="amaze-tab-2" data-bs-toggle="pill"
+                                    data-bs-target="#amaze-products-2" type="button" role="tab">Category 2</button>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Products for Selected Amaze Category -->
+                    <div class="tab-content w-100">
+                        <!-- Amaze Category 1 -->
+                        <div class="tab-pane fade show active" id="amaze-products-1" role="tabpanel">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">Amaze Product 1</h5>
+                                <p class="product-description">Short description of Amaze Product 1.</p>
+                                <p class="product-price">$89.99</p>
+                            </div>
+                        </div>
+                        <!-- Amaze Category 2 -->
+                        <div class="tab-pane fade" id="amaze-products-2" role="tabpanel">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 2">
+                                </div>
+                                <h5 class="product-name">Amaze Product 2</h5>
+                                <p class="product-description">Short description of Amaze Product 2.</p>
+                                <p class="product-price">$109.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-version">
+        <h1>Our Products</h1>
+    
+        <!-- Main Tabs -->
+        <ul class="nav nav-tabs justify-content-center border-0" id="productTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="apc-tab" data-bs-toggle="tab" data-bs-target="#apc" type="button"
+                    role="tab" aria-controls="apc" aria-selected="true">APC</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="amaze-tab" data-bs-toggle="tab" data-bs-target="#amaze" type="button"
+                    role="tab" aria-controls="amaze" aria-selected="false">Amaze</button>
+            </li>
+        </ul>
+    
+        <!-- Tabs Content -->
+        <div class="tab-content" id="productTabsContent">
+            <!-- APC Products -->
+            <div class="tab-pane fade show active" id="apc" role="tabpanel" aria-labelledby="apc-tab">
+                <!-- Scrollable Sub-tabs -->
+                <div class="scrollable-tabs">
+                    <ul class="nav nav-pills" id="apcSubTabs" role="tablist">
+                        <li class="nav-item">
+                            <button class="nav-link active" id="apc-tab-1" data-bs-toggle="pill"
+                                data-bs-target="#apc-products-1" type="button" role="tab">Category 1</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="apc-tab-2" data-bs-toggle="pill"
+                                data-bs-target="#apc-products-2" type="button" role="tab">Category 2</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="apc-tab-3" data-bs-toggle="pill"
+                                data-bs-target="#apc-products-3" type="button" role="tab">Category 3</button>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- Products for Selected APC Category -->
+                <div class="tab-content">
+                    <!-- APC Category 1 -->
+                    <div class="tab-pane fade show active" id="apc-products-1" role="tabpanel">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://via.placeholder.com/350x150" alt="APC Product 1">
+                            </div>
+                            <h5 class="product-name">APC Product 1</h5>
+                            <p class="product-description">Short description of APC Product 1.</p>
+                            <p class="product-price">$99.99</p>
+                        </div>
+                        <!-- More products for Category 1 -->
+                    </div>
+                    <!-- APC Category 2 -->
+                    <div class="tab-pane fade" id="apc-products-2" role="tabpanel">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://via.placeholder.com/350x150" alt="APC Product 2">
+                            </div>
+                            <h5 class="product-name">APC Product 2</h5>
+                            <p class="product-description">Short description of APC Product 2.</p>
+                            <p class="product-price">$129.99</p>
+                        </div>
+                        <!-- More products for Category 2 -->
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Amaze Products -->
+            <div class="tab-pane fade" id="amaze" role="tabpanel" aria-labelledby="amaze-tab">
+                <!-- Scrollable Sub-tabs -->
+                <div class="scrollable-tabs">
+                    <ul class="nav nav-pills" id="amazeSubTabs" role="tablist">
+                        <li class="nav-item">
+                            <button class="nav-link active" id="amaze-tab-1" data-bs-toggle="pill"
+                                data-bs-target="#amaze-products-1" type="button" role="tab">Category 1</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="amaze-tab-2" data-bs-toggle="pill"
+                                data-bs-target="#amaze-products-2" type="button" role="tab">Category 2</button>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- Products for Selected Amaze Category -->
+                <div class="tab-content">
+                    <!-- Amaze Category 1 -->
+                    <div class="tab-pane fade show active" id="amaze-products-1" role="tabpanel">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                            </div>
+                            <h5 class="product-name">Amaze Product 1</h5>
+                            <p class="product-description">Short description of Amaze Product 1.</p>
+                            <p class="product-price">$89.99</p>
+                        </div>
+                        <!-- More products for Category 1 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
