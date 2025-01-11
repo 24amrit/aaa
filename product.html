@@ -7,6 +7,7 @@
     <title>Product List</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -65,32 +66,36 @@
         <div class="tab-content" id="productTabsContent">
             <!-- APC Products -->
             <div class="tab-pane fade show active" id="apc" role="tabpanel" aria-labelledby="apc-tab">
-                <div class="product-container">
+                <div class="product-container d-flex flex-wrap flex-md-row flex-column">
                     <!-- Column Sub-tabs for APC -->
                     <div class="sub-tab-container">
-                        <ul class="nav nav-pills flex-column shadow-sm p-3 rounded" id="apcSubTabs" role="tablist">
+                        <ul class="nav nav-pills flex-md-column flex-row shadow-sm p-3 rounded" id="apcSubTabs"
+                            role="tablist">
                             <li class="nav-item">
                                 <button class="nav-link active" id="apc-tab-1" data-bs-toggle="pill"
-                                    data-bs-target="#apc-products-1" type="button" role="tab">Category 1</button>
+                                    data-bs-target="#apc-products-1" type="button" role="tab" aria-controls="apc-products-1"
+                                    aria-selected="true">Category 1</button>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link" id="apc-tab-2" data-bs-toggle="pill"
-                                    data-bs-target="#apc-products-2" type="button" role="tab">Category 2</button>
+                                <button class="nav-link" id="apc-tab-2" data-bs-toggle="pill" data-bs-target="#apc-products-2"
+                                    type="button" role="tab" aria-controls="apc-products-2" aria-selected="false">Category
+                                    2</button>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link" id="apc-tab-3" data-bs-toggle="pill"
-                                    data-bs-target="#apc-products-3" type="button" role="tab">Category 3</button>
+                                <button class="nav-link" id="apc-tab-3" data-bs-toggle="pill" data-bs-target="#apc-products-3"
+                                    type="button" role="tab" aria-controls="apc-products-3" aria-selected="false">Category
+                                    3</button>
                             </li>
                         </ul>
                     </div>
     
                     <!-- Products for Selected APC Category -->
-                    <div class="tab-content w-100">
+                    <div class="tab-content flex-grow-2">
                         <!-- APC Category 1 -->
                         <div class="tab-pane fade show active" id="apc-products-1" role="tabpanel">
                             <div class="product-card">
                                 <div class="product-image">
-                                    <img src="https://via.placeholder.com/350x150" alt="APC Product 1">
+                                    <img src="https://via.placeholder.com/350x250" alt="APC Product 1">
                                 </div>
                                 <h5 class="product-name">APC Product 1</h5>
                                 <p class="product-description">Short description of APC Product 1.</p>
@@ -114,33 +119,44 @@
     
             <!-- Amaze Products -->
             <div class="tab-pane fade" id="amaze" role="tabpanel" aria-labelledby="amaze-tab">
-                <div class="product-container">
+                <div class="product-container d-flex flex-wrap flex-md-row flex-column">
                     <!-- Column Sub-tabs for Amaze -->
                     <div class="sub-tab-container">
-                        <ul class="nav nav-pills flex-column shadow-sm p-3 rounded" id="amazeSubTabs" role="tablist">
+                        <ul class="nav nav-pills flex-md-column flex-row shadow-sm p-3 rounded" id="amazeSubTabs"
+                            role="tablist">
                             <li class="nav-item">
                                 <button class="nav-link active" id="amaze-tab-1" data-bs-toggle="pill"
-                                    data-bs-target="#amaze-products-1" type="button" role="tab">Category 1</button>
+                                    data-bs-target="#amaze-products-1" type="button" role="tab"
+                                    aria-controls="amaze-products-1" aria-selected="true">Home Inverters</button>
                             </li>
                             <li class="nav-item">
                                 <button class="nav-link" id="amaze-tab-2" data-bs-toggle="pill"
-                                    data-bs-target="#amaze-products-2" type="button" role="tab">Category 2</button>
+                                    data-bs-target="#amaze-products-2" type="button" role="tab"
+                                    aria-controls="amaze-products-2" aria-selected="false">Category 2</button>
                             </li>
                         </ul>
                     </div>
     
                     <!-- Products for Selected Amaze Category -->
-                    <div class="tab-content w-100">
+                    <div class="tab-content flex-grow-2">
                         <!-- Amaze Category 1 -->
                         <div class="tab-pane fade show active" id="amaze-products-1" role="tabpanel">
                             <div class="product-card">
                                 <div class="product-image">
                                     <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
                                 </div>
-                                <h5 class="product-name">Amaze Product 1</h5>
-                                <p class="product-description">Short description of Amaze Product 1.</p>
-                                <p class="product-price">$89.99</p>
+                                <h5 class="product-name">Amaze AN 4500+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i> Capacity – 4000VA / 36V
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i> Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹70,000</p>
                             </div>
+                            
                         </div>
                         <!-- Amaze Category 2 -->
                         <div class="tab-pane fade" id="amaze-products-2" role="tabpanel">
@@ -158,107 +174,122 @@
             </div>
         </div>
     </div>
-    <div class="mobile-version">
-        <h1>Our Products</h1>
     
-        <!-- Main Tabs -->
-        <ul class="nav nav-tabs justify-content-center border-0" id="productTabs" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="apc-tab" data-bs-toggle="tab" data-bs-target="#apc" type="button"
-                    role="tab" aria-controls="apc" aria-selected="true">APC</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="amaze-tab" data-bs-toggle="tab" data-bs-target="#amaze" type="button"
-                    role="tab" aria-controls="amaze" aria-selected="false">Amaze</button>
-            </li>
-        </ul>
-    
-        <!-- Tabs Content -->
-        <div class="tab-content" id="productTabsContent">
-            <!-- APC Products -->
-            <div class="tab-pane fade show active" id="apc" role="tabpanel" aria-labelledby="apc-tab">
-                <!-- Scrollable Sub-tabs -->
-                <div class="scrollable-tabs">
-                    <ul class="nav nav-pills" id="apcSubTabs" role="tablist">
-                        <li class="nav-item">
-                            <button class="nav-link active" id="apc-tab-1" data-bs-toggle="pill"
-                                data-bs-target="#apc-products-1" type="button" role="tab">Category 1</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" id="apc-tab-2" data-bs-toggle="pill"
-                                data-bs-target="#apc-products-2" type="button" role="tab">Category 2</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" id="apc-tab-3" data-bs-toggle="pill"
-                                data-bs-target="#apc-products-3" type="button" role="tab">Category 3</button>
-                        </li>
-                    </ul>
-                </div>
-    
-                <!-- Products for Selected APC Category -->
-                <div class="tab-content">
-                    <!-- APC Category 1 -->
-                    <div class="tab-pane fade show active" id="apc-products-1" role="tabpanel">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img src="https://via.placeholder.com/350x150" alt="APC Product 1">
-                            </div>
-                            <h5 class="product-name">APC Product 1</h5>
-                            <p class="product-description">Short description of APC Product 1.</p>
-                            <p class="product-price">$99.99</p>
-                        </div>
-                        <!-- More products for Category 1 -->
+    <!-- contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="contact-section">
+                <h2>Contact Us</h2>
+                <form>
+                    <!-- Name -->
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
                     </div>
-                    <!-- APC Category 2 -->
-                    <div class="tab-pane fade" id="apc-products-2" role="tabpanel">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img src="https://via.placeholder.com/350x150" alt="APC Product 2">
-                            </div>
-                            <h5 class="product-name">APC Product 2</h5>
-                            <p class="product-description">Short description of APC Product 2.</p>
-                            <p class="product-price">$129.99</p>
-                        </div>
-                        <!-- More products for Category 2 -->
+
+                    <!-- Phone Number -->
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number"
+                            required>
                     </div>
-                </div>
-            </div>
-    
-            <!-- Amaze Products -->
-            <div class="tab-pane fade" id="amaze" role="tabpanel" aria-labelledby="amaze-tab">
-                <!-- Scrollable Sub-tabs -->
-                <div class="scrollable-tabs">
-                    <ul class="nav nav-pills" id="amazeSubTabs" role="tablist">
-                        <li class="nav-item">
-                            <button class="nav-link active" id="amaze-tab-1" data-bs-toggle="pill"
-                                data-bs-target="#amaze-products-1" type="button" role="tab">Category 1</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" id="amaze-tab-2" data-bs-toggle="pill"
-                                data-bs-target="#amaze-products-2" type="button" role="tab">Category 2</button>
-                        </li>
-                    </ul>
-                </div>
-    
-                <!-- Products for Selected Amaze Category -->
-                <div class="tab-content">
-                    <!-- Amaze Category 1 -->
-                    <div class="tab-pane fade show active" id="amaze-products-1" role="tabpanel">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
-                            </div>
-                            <h5 class="product-name">Amaze Product 1</h5>
-                            <p class="product-description">Short description of Amaze Product 1.</p>
-                            <p class="product-price">$89.99</p>
-                        </div>
-                        <!-- More products for Category 1 -->
+
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email address"
+                            required>
                     </div>
-                </div>
+
+                    <!-- Product Dropdown -->
+                    <div class="mb-3">
+                        <label for="product" class="form-label">Select a Product</label>
+                        <select class="form-select" id="product" required>
+                            <option value="" disabled selected>Select a product...</option>
+                            <option value="Product 1">Product 1</option>
+                            <option value="Product 2">Product 2</option>
+                            <option value="Product 3">Product 3</option>
+                            <option value="Product 4">Product 4</option>
+                        </select>
+                    </div>
+
+                    <!-- Text Box -->
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..."
+                            required></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-submit">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
-    </div>
-        
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- About Us -->
+                    <div class="col-md-4 text-white">
+                        <h5>About Us</h5>
+                        <p>
+                            We are a leading company offering top-notch products and services
+                            to meet your needs. Our mission is to deliver excellence and build trust.
+                        </p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-md-4">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#testimonial">Testimonials</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="col-md-4 text-white">
+                        <h5>Contact Us</h5>
+                        <p><strong>Phone:</strong> +1 234 567 890</p>
+                        <p><strong>Email:</strong> support@example.com</p>
+                        <p><strong>Address:</strong> 123 Street Name, City, Country</p>
+                        <div class="social-icons">
+                            <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Subscribe Section -->
+                <div class="row mt-4">
+                    <div class="col-md-12 text-center">
+                        <h5>Subscribe to our Newsletter</h5>
+                        <form class="d-flex justify-content-center mt-3">
+                            <input type="email" class="form-control w-50 me-2" placeholder="Enter your email" required>
+                            <button type="submit" class="btn btn-subscribe">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="copyright">
+                            &copy; 2024 Your Company. All Rights Reserved. | Designed with ❤️ by Your Name
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>    
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

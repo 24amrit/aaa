@@ -1,0 +1,210 @@
+<div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AMAZE AN STAR 3875</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 3.5kVA /36V
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i> Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹34,490/p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AN STAR 2375</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 2kVA /24V
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i> Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹19,500</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AN 1575+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i> Capacity – 1400VA
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i> Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹10,500</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AN 1675+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 1500VA
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i> Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹10,800</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AQ 1275+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 1100VA / 12V
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Modified Square Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹10,000</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AN Digital 1475</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 1100VA
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹10,000</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AN 1275 Pro</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 1100VA
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹10,000</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AN 1075+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 900VA
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹9,200</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AQ 1075+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 900VA
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Square Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹8,100</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AN 875+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 700VA
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹7,200</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AQ 700+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 600VA
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Square Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹5,600</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">AMAZE AQ 2375+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 2000VA
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Square Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹16,000</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">Amaze AN 11075+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 10000VA / 180V
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹1,04,990</p>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                </div>
+                                <h5 class="product-name">Amaze AN 9075+</h5>
+                                <ul class="product-features">
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 7500VA/120V
+                                    </li>
+                                    <li class="feature-item">
+                                      <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                    </li>
+                                </ul>
+                                <p class="product-price">MRP: ₹84,990</p>
+                            </div>
