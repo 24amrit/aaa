@@ -62,6 +62,30 @@
             </li>
         </ul>
 
+
+        <!-- Modal (hidden by default) -->
+        <div class="modal" id="enquiry-modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeEnquiryModal()">&times;</span>
+                <h3>Enquire Now</h3>
+                <form id="enquiry-form">
+                    <label for="product-name">Product Name:</label>
+                    <input type="text" id="product-name" name="product-name" readonly>
+
+                    <label for="customer-name">Your Name:</label>
+                    <input type="text" id="customer-name" name="customer-name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Your Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
         <!-- Tabs Content -->
         <div class="tab-content" id="productTabsContent">
             <!-- APC Products -->
@@ -97,11 +121,96 @@
                             <div class="product-container2">
                                 <div class="product-card">
                                     <div class="product-image">
-                                        <img src="https://via.placeholder.com/350x250" alt="APC Product 1">
+                                        <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
                                     </div>
-                                    <h5 class="product-name">APC Product 1</h5>
-                                    <p class="product-description">Short description of APC Product 1.</p>
-                                    <p class="product-price">$99.99</p>
+                                    <h5 class="product-name">APC Back-UPS BX600C-IN, UPS System, An ideal Power Backup &
+                                        Protection for Home Office, Desktop PC & Home Electronics.</h5>
+                                    <ul class="product-features">
+                                        <li class="feature-item">
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i> BX600C-IN 600VA / 360W,
+                                            230V
+                                        </li>
+                                        <li class="feature-item">
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i> Maintenance-free sealed
+                                            Lead-Acid battery with suspended electrolyte : leakproof
+                                        </li>
+                                    </ul>
+                                    <p class="product-price">₹ 4,950</p>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                    </div>
+                                    <h5 class="product-name">APC Back-UPS BX1100C-IN, UPS System, An ideal Power Backup
+                                        & Protection for Home Office, Desktop PC & Home Electronics</h5>
+                                    <ul class="product-features">
+                                        <li class="feature-item">
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i> BX1100C-IN 1100VA /
+                                            660W, 230V
+                                        </li>
+                                        <li class="feature-item">
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i> Maintenance-free sealed
+                                            Lead-Acid battery with suspended electrolyte : leakproof
+                                        </li>
+                                    </ul>
+                                    <p class="product-price">₹ 10,100</p>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                    </div>
+                                    <h5 class="product-name">APC Back-UPS Pro, UPS System, High-Performance Premium
+                                        Power Backup & Protection for Home Office, Desktop PC, Gaming Console & Home
+                                        Electronics</h5>
+                                    <ul class="product-features">
+                                        <li class="feature-item">
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i> BR1000G-IN, 1000VA /
+                                            600W, 230V
+                                        </li>
+                                        <li class="feature-item">
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i> Maintenance-free sealed
+                                            Lead-Acid battery with suspended electrolyte : leakproof
+                                        </li>
+                                    </ul>
+                                    <p class="product-price">₹ 19,000</p>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                    </div>
+                                    <h5 class="product-name">APC Back-UPS Pro UPS System, High-Performance Premium Power
+                                        Backup & Protection for Home Office, Desktop PC, Gaming Console & Home
+                                        Electronics</h5>
+                                    <ul class="product-features">
+                                        <li class="feature-item">
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i> BR1500G-IN, 1500VA /
+                                            865W, 230V
+                                        </li>
+                                        <li class="feature-item">
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i> Maintenance-free sealed
+                                            Lead-Acid battery with suspended electrolyte : leakproof
+                                        </li>
+                                    </ul>
+                                    <p class="product-price">₹ 46,000</p>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/350x150" alt="Amaze Product 1">
+                                    </div>
+                                    <h5 class="product-name">APC Back-UPS Pro UPS System, High-Performance Premium Power
+                                        Backup & Protection for Home Office, Desktop PC, Gaming Console & Home
+                                        Electronics</h5>
+                                    <ul class="product-features">
+                                        <li class="feature-item">
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i> BR1500G-IN, 1500VA /
+                                            865W, 230V
+                                        </li>
+                                        <li class="feature-item">
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i> Maintenance-free sealed
+                                            Lead-Acid battery with suspended electrolyte : leakproof
+                                        </li>
+                                    </ul>
+                                    <p class="product-price">₹ 46,000</p>
                                 </div>
                             </div>
                         </div>
@@ -171,6 +280,7 @@
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹70,000</p>
+                                    <button class="enquire-btn" onclick="openEnquiryModal('Amaze AN 4500+')">Enquire Now</button>
                                 </div>
                                 <div class="product-card">
                                     <div class="product-image">
@@ -187,6 +297,7 @@
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹34,490</p>
+                                    <button class="enquire-btn" onclick="openEnquiryModal('AMAZE AN STAR 3875')">Enquire Now</button>
                                 </div>
                                 <div class="product-card">
                                     <div class="product-image">
@@ -403,7 +514,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 5500VA/72V
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine
+                                            Wave
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹56,990</p>
@@ -418,7 +530,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 4000VA/48V
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine
+                                            Wave
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹39,990</p>
@@ -433,7 +546,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 2800VA / 24V
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine
+                                            Wave
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹26,990</p>
@@ -448,7 +562,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 2500VA
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine
+                                            Wave
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹25,490 </p>
@@ -463,7 +578,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 400VA/ 48V
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine
+                                            Wave
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹34,990</p>
@@ -478,7 +594,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 5500VA/72V
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine
+                                            Wave
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹55,990</p>
@@ -493,7 +610,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 1100VA / 12V
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine Wave
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Pure Sine
+                                            Wave
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹10,500 </p>
@@ -588,7 +706,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 220 Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Tubular Technology
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Tubular
+                                            Technology
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹27,100</p>
@@ -648,7 +767,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 160 Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Tall Tubular Technology
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Tall Tubular
+                                            Technology
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹18,600</p>
@@ -663,7 +783,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 150 Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Tubular Technology
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Tubular
+                                            Technology
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹18,600</p>
@@ -678,7 +799,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 150 Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short Tubular
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short
+                                            Tubular
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹18,000</p>
@@ -693,7 +815,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 150 Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Tubular Technology
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Tubular
+                                            Technology
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹16,600</p>
@@ -708,7 +831,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 150 Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short Tubular
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short
+                                            Tubular
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹17,800</p>
@@ -723,7 +847,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 135 Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short Tubular
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short
+                                            Tubular
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹14,000</p>
@@ -753,7 +878,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 120 Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short Tubular
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short
+                                            Tubular
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹13,400</p>
@@ -798,7 +924,8 @@
                                             <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – 100 Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short Tubular
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short
+                                            Tubular
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹12,600</p>
@@ -840,10 +967,11 @@
                                     <h5 class="product-name">AMAZE TC15048ST</h5>
                                     <ul class="product-features">
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity –  Ah
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short Tubular Technology
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short
+                                            Tubular Technology
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹16,800</p>
@@ -855,10 +983,11 @@
                                     <h5 class="product-name">AMAZE TC13548ST</h5>
                                     <ul class="product-features">
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity –  Ah
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Capacity – Ah
                                         </li>
                                         <li class="feature-item">
-                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short Tubular Technology
+                                            <i class="fas fa-bolt" style="color: #ffc107;"></i>Technology – Short
+                                            Tubular Technology
                                         </li>
                                     </ul>
                                     <p class="product-price">MRP: ₹14,000</p>
@@ -1158,6 +1287,7 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
